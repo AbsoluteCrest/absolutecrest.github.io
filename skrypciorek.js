@@ -1,7 +1,8 @@
 function pobieranie() {
     let a = document.getElementById('lol')
-    a=a.value
+    a = a.value
     console.log(a)
 }
+
 
 
