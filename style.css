@@ -112,16 +112,31 @@ h1 {
 
 /*fig*/
 figure {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 12px 12px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
+    margin: 2%;
+    padding: 2%;
+    width: 50%;
+    margin-left: 23%;
 }
 
 figcaption {
+    padding: 1%;
+    margin: 1%;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 /*img*/
+#zaba{
+    margin: 50xp;
+    padding: 20px;
+    border-radius: 2%;
+    border: 1px solid white;
+}
 img {
     text-align: center;
     border-radius: 25px;
@@ -145,6 +160,7 @@ p {
     border: 1px solid rgb(205, 205, 205);
     border-radius: 5px;
     padding: 15px;
+    margin-top: 10px;
     
 }
 
