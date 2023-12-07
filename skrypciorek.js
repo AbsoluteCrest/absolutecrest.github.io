@@ -18,23 +18,3 @@ document.addEventListener('keydown', event=>{
 })
 
 //const pobieranie = ()=>{} inny zapis funkcji
-
-/*
-function dodajOpcje() {
-    // Pobierz wartość z pola tekstowego
-    var tekst = document.getElementById('textInput').value;
-
-    // Pobierz tabelę select
-    var select = document.getElementById('selectTable');
-
-    // Stwórz nową opcję
-    var nowaOpcja = document.createElement('option');
-    nowaOpcja.value = tekst;
-    nowaOpcja.text = tekst;
-
-    // Dodaj nową opcję na początek tabeli select
-    select.add(nowaOpcja, select.options[0]);
-
-    // Wyczyść zawartość pola tekstowego
-    document.getElementById('textInput').value = '';
-*/
