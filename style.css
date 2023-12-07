@@ -34,15 +34,16 @@ h1 {
 }
 
 /*div*/
-#ramka{
+
+#ramka {
     background-color: lightgray;
     border: 1px solid rgb(205, 205, 205);
-    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 50%;
     padding: 25px;
     text-align: center;
-    margin-left:23%;
+    margin-left: 23%;
 }
 
 /*button*/
@@ -63,10 +64,13 @@ h1 {
     font-size: 15px;
     border: 2px solid black;
     border-radius: 10px;
+    width: 75px;
 }
 
 .dropD {
     text-align: center;
+    width: 75px;
+    margin-left: 47%;
 }
 
 .dropDC {
@@ -114,13 +118,13 @@ h1 {
 figure {
     border: 1px solid rgb(205, 205, 205);
     border-radius: 5px;
-    box-shadow: 2px 12px 12px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin: 2%;
     padding: 2%;
     width: 50%;
     margin-left: 23%;
-    
+
 }
 
 figcaption {
@@ -132,12 +136,13 @@ figcaption {
 
 
 /*img*/
-#zaba{
+#zaba {
     margin: 50xp;
     padding: 20px;
     border-radius: 2%;
     border: 1px solid white;
 }
+
 img {
     text-align: center;
     border-radius: 25px;
@@ -162,7 +167,7 @@ p {
     border-radius: 5px;
     padding: 15px;
     margin-top: 10px;
-    
+
 }
 
 
@@ -187,12 +192,22 @@ a {
 /*hr*/
 hr {
     align-self: center;
-    width: 100%;
+    width: 85%;
     height: 1px;
     background-color: #858585;
     border: none;
+    text-align: center;
 }
 
+#ahr {
+    background-color: lightgray;
+    width: 1px;
+    height: 50%;
+    transform: rotate(90deg);
+    right: 550px;
+
+
+}
 
 /*footer*/
 footer {
@@ -209,7 +224,8 @@ footer {
 
 /*footer_ul*/
 #footer_ul {
-    margin-right: 35px;
+    
+    
     text-align: center;
     list-style-type: none;
 
@@ -217,5 +233,7 @@ footer {
 
 /*li*/
 li {
+    margin-left: -3%;
+    display: block;
     text-align: center;
 }
