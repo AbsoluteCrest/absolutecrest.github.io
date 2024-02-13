@@ -6,6 +6,51 @@ git push
 */
 
 
+
+/*nav*/
+nav {
+    float: right;
+}
+
+#ciapak {
+    border: black solid 2px;
+    border-radius: 2rem;
+    width: 90%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 110%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #000000;
+    animation:
+      l20-1 0.8s infinite linear alternate,
+      l20-2 1.6s infinite linear;
+  }
+  @keyframes l20-1{
+     0%    {clip-path: polygon(50% 50%,0       0,  50%   0%,  50%    0%, 50%    0%, 50%    0%, 50%    0% )}
+     12.5% {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100%   0%, 100%   0%, 100%   0% )}
+     25%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 100% 100%, 100% 100% )}
+     50%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+     62.5% {clip-path: polygon(50% 50%,100%    0, 100%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+     75%   {clip-path: polygon(50% 50%,100% 100%, 100% 100%,  100% 100%, 100% 100%, 50%  100%, 0%   100% )}
+     100%  {clip-path: polygon(50% 50%,50%  100%,  50% 100%,   50% 100%,  50% 100%, 50%  100%, 0%   100% )}
+  }
+  @keyframes l20-2{ 
+    0%    {transform:scaleY(1)  rotate(0deg)}
+    49.99%{transform:scaleY(1)  rotate(135deg)}
+    50%   {transform:scaleY(-1) rotate(0deg)}
+    100%  {transform:scaleY(-1) rotate(-135deg)}
+  }
+
+
+
 /*aside*/
 aside {
     text-align: center;
@@ -32,10 +77,11 @@ h1 {
     font-size: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #00C853;
-    text-align: center;
+
 }
 
 /*div*/
+
 
 #ramka {
     background-color: lightgray;
@@ -46,6 +92,7 @@ h1 {
     padding: 25px;
     text-align: center;
     margin-left: 23%;
+    position: relative;
 }
 
 /*button*/
@@ -53,10 +100,27 @@ h1 {
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
+
 }
 
 #wciskoj:hover {
     background-color: lightgray;
+
+
+}
+
+#transguzik {
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    border: solid black 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+#transguzik:hover {
+    background-color: #818181;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
 }
 
 .dropB {
@@ -109,11 +173,13 @@ h1 {
 #bombaa {
     background-color: white;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 30%
 }
 
 #bombaa:hover {
     background-color: lightgray;
+
+
 }
 
 /*fig*/
@@ -139,17 +205,20 @@ figcaption {
 
 /*img*/
 #zaba {
+    text-align: center;
+    border-radius: 25px;
+    width: 30%;
+    height: 10%;
     margin: 50xp;
     padding: 20px;
     border-radius: 2%;
     border: 1px solid white;
 }
 
-img {
-    text-align: center;
-    border-radius: 25px;
-    width: 30%;
-    height: 10%;
+#edzio {
+    border-radius: 5px;
+    width: 7%;
+    height: 5%;
 }
 
 
@@ -162,7 +231,7 @@ p {
 
 #info {
     text-align: center;
-    font-size: 15px;
+    font-size: clamp(20px, 2%, 85px);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     border: 1px solid rgb(205, 205, 205);
@@ -201,15 +270,7 @@ hr {
     text-align: center;
 }
 
-#ahr {
-    background-color: lightgray;
-    width: 1px;
-    height: 50%;
-    transform: rotate(90deg);
-    right: 550px;
 
-
-}
 
 /*footer*/
 footer {
@@ -235,6 +296,6 @@ footer {
 /*li*/
 li {
     margin-left: -3%;
-    display:block;
+    display: block;
     text-align: center;
 }
