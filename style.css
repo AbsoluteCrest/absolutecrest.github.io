@@ -5,8 +5,10 @@ git commit -m"cokolwiek"
 git push
 */
 
-
-
+body{
+    aspect-ratio:  16/9;
+    resize: both;
+}
 /*nav*/
 nav {
     float: right;
@@ -22,34 +24,6 @@ nav {
     font-size: 110%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* HTML: <div class="loader"></div> */
-.loader {
-    width: 50px;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    border: 8px solid #000000;
-    animation:
-      l20-1 0.8s infinite linear alternate,
-      l20-2 1.6s infinite linear;
-  }
-  @keyframes l20-1{
-     0%    {clip-path: polygon(50% 50%,0       0,  50%   0%,  50%    0%, 50%    0%, 50%    0%, 50%    0% )}
-     12.5% {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100%   0%, 100%   0%, 100%   0% )}
-     25%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 100% 100%, 100% 100% )}
-     50%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
-     62.5% {clip-path: polygon(50% 50%,100%    0, 100%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
-     75%   {clip-path: polygon(50% 50%,100% 100%, 100% 100%,  100% 100%, 100% 100%, 50%  100%, 0%   100% )}
-     100%  {clip-path: polygon(50% 50%,50%  100%,  50% 100%,   50% 100%,  50% 100%, 50%  100%, 0%   100% )}
-  }
-  @keyframes l20-2{ 
-    0%    {transform:scaleY(1)  rotate(0deg)}
-    49.99%{transform:scaleY(1)  rotate(135deg)}
-    50%   {transform:scaleY(-1) rotate(0deg)}
-    100%  {transform:scaleY(-1) rotate(-135deg)}
-  }
-
-
 
 /*aside*/
 aside {
@@ -213,6 +187,12 @@ figcaption {
     padding: 20px;
     border-radius: 2%;
     border: 1px solid white;
+    filter: blur(10px);
+    transition: all 0.1s ease;
+}
+#zaba:active{
+    filter:none;
+    transition: all 0.1s ease;
 }
 
 #edzio {
@@ -298,4 +278,25 @@ li {
     margin-left: -3%;
     display: block;
     text-align: center;
+}
+
+#random{
+    width: 250px;
+    height: 250px;
+    border:solid #00B5FF 5px;
+    perspective: 500px;
+    box-shadow: #858585 0 12px 12px 0 ;
+
+}
+#inside{
+    width: 250px;
+    height: 250px;
+    background-color: #A0D8FF;
+    transition: all 1s ease;
+
+}
+
+#inside:hover{
+    transform: rotatex(45deg);
+    transition: all 1s ease;
 }
