@@ -74,5 +74,9 @@ body{
     50%   {transform:scaleY(-1) rotate(0deg)}
     100%  {transform:scaleY(-1) rotate(-135deg)}
 }
+#log_window>fieldset{
+    border: 2px solid black;
+    border-radius: 1rem;
+}
 
 
