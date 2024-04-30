@@ -1,5 +1,5 @@
 body{
-    background-color: #eecaff;
+    background-image: linear-gradient(#ffffff,#81beff);
     width: 100%;
     height: 100%;
     aspect-ratio: 16/9;
@@ -38,10 +38,10 @@ body{
     padding: 1.25% 1.75% 1.25% 1.75%;
     margin: 2% 1% 1% 25% ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #eecaff;
+    background-color: transparent;
 }
 #log_button:hover{
-    background-color: #e095f3;
+    background-color: #8ae2fd;
 }
 #forgot{
     margin: 2% 10% 1% 1%;
