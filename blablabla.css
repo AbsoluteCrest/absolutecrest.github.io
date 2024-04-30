@@ -1,0 +1,78 @@
+body{
+    background-color: #eecaff;
+    margin: 1%;
+    aspect-ratio: 16/9;
+}
+#log_window{
+    border: 2px  solid #000000;
+    border-radius: 2rem;
+    width: 25%;
+    height: 50%;
+    padding: 3rem;
+    margin: 2%;
+    display: block;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 0;
+}
+#log_window>legend{
+    text-align-last: left;
+}
+#log_window>h2{
+    text-align: center;
+}
+#log_window>a{
+    text-align: right;
+}
+#log_name,#log_password{
+    background: none;
+    border: none;
+    outline: none;
+}
+#log_button{
+    border: 2px  solid #000000;
+    border-radius: 10px;
+    padding: 1.25% 1.75% 1.25% 1.75%;
+    margin: 2% 1% 1% 25% ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #eecaff;
+}
+#log_button:hover{
+    background-color: #e095f3;
+}
+#forgot{
+    margin: 2% 10% 1% 1%;
+    color: #ff3091;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+#loader {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #514b82;
+    animation:l20-1 0.8s infinite linear alternate,l20-2 1.6s infinite linear;
+    display: none;
+    position: absolute;
+    right: 40%;
+    margin: 5% ;
+}
+@keyframes l20-1{
+    0%    {clip-path: polygon(50% 50%,0       0,  50%   0%,  50%    0%, 50%    0%, 50%    0%, 50%    0% )}
+    12.5% {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100%   0%, 100%   0%, 100%   0% )}
+    25%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 100% 100%, 100% 100% )}
+    50%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+    62.5% {clip-path: polygon(50% 50%,100%    0, 100%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+    75%   {clip-path: polygon(50% 50%,100% 100%, 100% 100%,  100% 100%, 100% 100%, 50%  100%, 0%   100% )}
+    100%  {clip-path: polygon(50% 50%,50%  100%,  50% 100%,   50% 100%,  50% 100%, 50%  100%, 0%   100% )}
+}
+@keyframes l20-2{
+    0%    {transform:scaleY(1)  rotate(0deg)}
+    49.99%{transform:scaleY(1)  rotate(135deg)}
+    50%   {transform:scaleY(-1) rotate(0deg)}
+    100%  {transform:scaleY(-1) rotate(-135deg)}
+}
+
+
