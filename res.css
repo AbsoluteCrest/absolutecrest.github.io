@@ -1,0 +1,79 @@
+@media screen (max-width:500px) {
+    body{background-color: #000000;}
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: #EEEEEE;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
+nav>div>a,nav>button>a{
+    text-decoration: none;
+}
+nav>.login>button{
+    border-radius: 2rem;
+    background-color: #000000;
+    padding: 0.5em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.login>button>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav>div>a{
+    color: #000000;
+}
+.search_bar>form>input{
+    border: 2px #000000 solid;
+    padding: 0.5em;
+    width: 150%;
+}
+footer{
+    clear: both;
+    background-color: #EEEEEE;
+    padding: 1em;
+    display: grid;
+    justify-content: center;
+}
+main{
+    display: grid;
+    height: 50vh;
+    padding: 2%;
+}
+
+.websites_name{
+    font-size: 220%;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 7px;
+    z-index: 1;
+    text-align: center;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content>p>a{
+    text-decoration: none;
+}
