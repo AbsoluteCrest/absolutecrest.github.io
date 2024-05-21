@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>responsive website or smth</title>
     <link rel="stylesheet" href="res.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="res.js"></script>
     
 </head>
 <body>
     <header>
         <nav>
             <div class="menu">
-                <svg xmlns="http://www.w3.org/2000/svg" height="50" width="30" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-                <div class="dropdown-content">
+                    <button onclick="show()" id="show">☰</button>
+                <div class="dropdown-content" id="sidebar">
+                  <p><button onclick="close()" id="close">&times;</button></p>
                   <p><a href="https://github.com/Great-Rax-Mafia">Github</a></p>
                   <p><a href="https://dexonrax.github.io">Dexon Rax</a></p>
                   <p><a href="https://absolutecrest.github.io">Absolute Crest</a></p>
