@@ -7,5 +7,16 @@ $('document').ready(function(){
     });
 });
 
+$('document').ready(function(){
+    $('.rollout-input-p').click(function(){
+        $('.rollout-info').show();
+    });
+    $('.rollout-input-m').click(function(){
+        $('.rollout-info').hide();
+    });
+});
+
+
+
 
 
