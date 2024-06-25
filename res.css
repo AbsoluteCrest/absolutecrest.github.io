@@ -54,7 +54,8 @@ main>p{
 }
 
 .websites_name{
-    font-size: 220%;
+    font-size: 250%;
+    font-family: Heartless;
 }
 
 .menu {
@@ -130,5 +131,13 @@ main>p{
 .slideside>ul>li:hover{
     font-size: 135%;
     transition: all 0.5s ease-in-out;
+}
+@font-face {
+    font-family: Heartless;
+    src: url(Heartless.ttf);
+}
+.info_company>i{
+    font-family: Heartless;
+    font-size: larger;
 }
 
