@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-evenly  w-full mt-auto h-auto">
+        <nav className="flex items-center justify-evenly  w-full mt-auto h-auto sticky">
             <a className="flex items-center gap-2 font-heartless text-4xl"
                href="http://github.com/Great-Rax-Mafia">GRM</a>
 

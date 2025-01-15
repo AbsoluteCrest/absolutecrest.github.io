@@ -1,6 +1,5 @@
 import NavBar from "@/app/components/NavBar";
 
-
 export default function Support() {
     return (
 
