@@ -1,6 +1,5 @@
 import NavBar from "@/app/components/NavBar";
 import MainPage from "@/app/components/MainPage"
-import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
