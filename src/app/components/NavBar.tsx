@@ -6,36 +6,33 @@ const Navbar = () => {
             <a className="flex items-center gap-2 font-heartless text-4xl"
                href="http://github.com/Great-Rax-Mafia">GRM</a>
 
-            <div className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-poppins mx-auto">
+            <div className="relative flex items-center gap-2 font-commissioner mx-auto before:absolute before:-bottom-1.5 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-current before:transition-transform before:duration-200 hover:before:scale-x-100 hover:before:origin-left">
                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 496 512" className="h-5 w-5"
                      height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#ffffff"
-                          d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+                    <path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
                 </svg>
                 <Link href="./">Main</Link>
             </div>
 
-            <div className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-poppins mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" strokeWidth="0"
-                     className="h-5 w-5"
-                     viewBox="0 0 448 512">
-                    <path
-                        d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/>
-                </svg>
-                <Link href="./about">About</Link>
-            </div>
+            <div className="relative flex items-center gap-2 font-commissioner mx-auto before:absolute before:-bottom-1.5 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-current before:transition-transform before:duration-200 hover:before:scale-x-100 hover:before:origin-left">
+            <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" strokeWidth="0"
+                 className="h-5 w-5"
+                 viewBox="0 0 448 512">
+                <path
+                    d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z"/>
+            </svg>
+            <Link href="./about">About</Link>
+        </div>
 
-            <div className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-poppins mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" strokeWidth="0"
-                     className="h-5 w-5"
-                     viewBox="0 0 512 512">
-                    <path
-                        d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/>
-                </svg>
+    <div className="relative flex items-center gap-2 font-commissioner mx-auto before:absolute before:-bottom-1.5 before:left-0 before:h-[2px] before:w-full before:origin-right before:scale-x-0 before:bg-current before:transition-transform before:duration-200 hover:before:scale-x-100 hover:before:origin-left">
+        <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="currentColor" strokeWidth="0"
+             className="h-5 w-5"
+             viewBox="0 0 512 512">
+        <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
                 <Link href="./support">Support</Link>
             </div>
 
-            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-poppins "
+            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-commissioner "
                href="https://discord.com/users/647854082861563904">
                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 640 512"
                      className="h-5 w-5"
@@ -45,7 +42,7 @@ const Navbar = () => {
                 </svg>
             </a>
 
-            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-poppins ml-5 "
+            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 font-commissioner ml-5 "
                href="https://github.com/AbsoluteCrest">
                 <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 496 512" className="h-5 w-5"
                      height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">

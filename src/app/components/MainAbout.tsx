@@ -4,7 +4,7 @@ const MainAbout = () => {
 
             <div className="my-20 space-y-20">
 
-                <div className="my-20  rounded-lg p-9 bg-neutral-900 font-sfpro font-bold text-4xl w-3/5">
+                <div className="my-20  rounded-lg p-9 bg-neutral-900 font-sfpro font-bold text-4xl w-3/5 animate-fade-up">
                     <header className="font-sfpro text-5xl mb-4">Absolute Crest</header>
                     <p className="font-sfpro text-base">Cześć, nazywam się Piotr. 👋<br/>
                         Mam 17 lat i posiadam średniozaawansowane umiejętności w zakresie front-end developmentu,
@@ -14,7 +14,7 @@ const MainAbout = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col justify-center h-full font-sfpro font-bold text-4xl">
+                <div className="flex flex-col justify-center h-full font-sfpro font-bold text-4xl animate-fade-up-delay">
                     <div className="flex flex-wrap gap-5 justify-center items-center ">
                         <div className="rounded-lg p-9 bg-neutral-900 text-left w-full md:flex-[1_0_30%]  text-base">
                             <header className="font-sfpro text-5xl font-bold mb-6">Tech Stacks</header>
@@ -107,7 +107,7 @@ const MainAbout = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center h-full font-sfpro font-bold text-4xl">
+                <div className="flex flex-col justify-center h-full font-sfpro font-bold text-4xl animate-fade-up-more-delay ">
                     <div className="flex flex-wrap gap-5 justify-center items-center ">
                         <div className="rounded-lg p-9 bg-neutral-900 text-left w-full md:flex-[1_0_30%] text-base">
                             <header className="font-sfpro text-5xl font-bold mb-6">Narzędzia</header>
